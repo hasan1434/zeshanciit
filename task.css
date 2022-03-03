@@ -1,0 +1,118 @@
+/* header {
+    background-color: rgb(221, 17, 17);
+    height: 80px;
+    
+}
+#img{
+    height: 50px;
+    margin-left: 30pt;
+    margin-top: 10pt;
+}
+#right{
+    float: right;
+    margin-top: 10pt;
+    height: 50px;
+}
+ */
+
+ 
+
+ #myDIV {
+    height:300px;
+    background-color:#FFFFFF;
+    padding:30px;
+  }
+  #blueDIV {
+    margin:auto;
+    margin-top:50px;
+    width:200px;
+    padding:10px;
+    background-color:lightblue;
+    box-shadow:20px 20px 50px 10px pink;
+  }
+  
+  
+
+#leftbox {
+    float:left; 
+    
+    width:50%;
+    height:280px;
+}
+#rightbox{
+    float:right;
+    background: url('music.jfif');
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("img_nature.jpg");
+    min-height: 380px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Add styles to the form container */
+  .container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    height: 340px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    padding: 9px;
+    margin-bottom: 15px;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn1 {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    padding: 9px;
+    border-radius: 5px;
+    margin-top: 17px;
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 95%);
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+
+
+
